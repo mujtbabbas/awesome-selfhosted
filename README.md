@@ -12,8 +12,23 @@ See [Contributing](#contributing).
 
 --------------------
 
+## About This Standalone Edition
+
+- **Main repository:** [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- **Based on version:** upstream commit `121b4eb6d44bf3b21ffa1cba056fe208146891c2` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-18; upstream's latest release tag `1.0.0` long predates this snapshot, so the commit is the provenance)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance (plus a Table of contents entry above)
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates (upstream ships no workflows; its checks live in the separate awesome-selfhosted-data repository)
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the list (the markdown-check workflow is this repo's first workflow)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to the awesome-selfhosted contributors. Licence is preserved unchanged — see `LICENSE` (Creative Commons Attribution-ShareAlike 3.0 Unported, CC BY-SA 3.0; the GitHub API reports NOASSERTION because it does not map this licence file). Note the upstream tree is now just 6 files: the list data itself is maintained in the separate awesome-selfhosted-data repository, and this README (the generated full list) plus non-free.md are what remain here. This edition adds the enhancements listed above only.
+
 ## Table of contents
 
+- [About This Standalone Edition](#about-this-standalone-edition)
 - [Software](#software)
   - [Analytics](#analytics)
   - [Archiving and Digital Preservation (DP)](#archiving-and-digital-preservation-dp)
